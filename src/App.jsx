@@ -1,8 +1,14 @@
+import Button from "./components/Button"
+
 function App() {
   return (
     <>
-     <h1>Manifest Frontend Intern Code challenge 2025</h1>
-     <p>Show off your components here</p>
+      <Button
+      variant="text"
+      state="active"
+      size="mobile">
+        Continue
+      </Button>
     </>
   )
 }
